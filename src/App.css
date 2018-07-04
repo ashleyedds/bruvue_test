@@ -1,28 +1,29 @@
-.App {
-  text-align: center;
+#root, html{
+  background: url(./assets/woodpanel.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.album-container {
+  width: 80vw;
+}
+.album-row {
+  margin-top: 50px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.dropDown-row {
+  margin-top: 100px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.modal-content {
+  width: 58vw;
 }
 
-.App-intro {
-  font-size: large;
+.modal-dialog {
+  margin-left: 20%;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+

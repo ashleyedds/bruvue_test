@@ -1,0 +1,14 @@
+.card {
+    margin-bottom: 15px;
+}
+
+.card-title{
+    color:#0a233b;
+    margin: 3px;
+}
+
+.card-btn {
+    margin: 3px;
+    background-color: #03a9e2;
+    color: #0a233b;
+}
